@@ -1,2 +1,3 @@
 # vanilaJsclonecoding
-JS To do list clone coding
+
+Let's study js To do list clone coding
