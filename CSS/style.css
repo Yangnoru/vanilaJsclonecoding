@@ -26,6 +26,10 @@ button {
   border-radius: 15%;
 }
 
+#login-form {
+  text-align: center;
+}
+
 .hidden {
   display: none;
 }
