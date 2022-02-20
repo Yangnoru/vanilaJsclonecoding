@@ -13,7 +13,7 @@ function deleteToDo(event){
     const targetli = event.target.parentElement;
     targetli.remove();
     toDos = toDos.filter(toDo => toDo.id !== parseInt(targetli.id));
-    saveToDos();
+    saveToDos();  /* 이것까지 해줘야 자르고 filter로 거르고 "저장"까지 하는것이다 */
 }
 
 function paintToDo(newToDo){
@@ -24,8 +24,8 @@ function paintToDo(newToDo){
     const button = document.createElement("button");
     button.innerText = "X" ;
     button.addEventListener("click",deleteToDo);
-    li.appendChild(span);
     li.appendChild(button);
+    li.appendChild(span);
     toDoList.appendChild(li);
 }
 
@@ -51,5 +51,5 @@ if(savedToDos !== null){
     const parsedToDos = JSON.parse(savedToDos);  /*parsedToDos는 array이다 */
     toDos = parsedToDos;
     parsedToDos.forEach(paintToDo);
-
 }
+

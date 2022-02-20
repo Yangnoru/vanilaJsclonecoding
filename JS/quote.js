@@ -1,24 +1,24 @@
 const quotes = [
     {
-      quote: "The way to get started is to quit talking and begin doing.",
-      author: "Walt Disney",
+      quote: "노력하면 어떻게든 된다는 보증은 없지만 노력하지않으면 아무것도 안된다는것은 보증할수있습니다!",
+      author: "-빙과, 치탄다에루-",
     },
     {
-      quote: "Life is what happens when you're busy making other plans.",
-      author: "John Lennon",
+      quote: "꿈은 도망가지 않아 도망가는 것은 언제나 나 자신이지",
+      author: "-신형만-",
     },
     {
       quote:
-        "The world is a book and those who do not travel read only one page.",
-      author: "Saint Augustine",
+        "모두에게는 저만의 평범함이라는게 있어서 이 세상의 사람의 수 만큼 평범함이 있는거에요. 그러니 상대방의 평범함을 존중하는게 그 사람을 소중히 여기는 마음이에요.",
+      author: "-개구리 중사 케로로-",
     },
     {
-      quote: "Life is either a daring adventure or nothing at all.",
-      author: "Helen Keller",
+      quote: "잃은 것만 세지마 없는건 이제 없어 너에게 남은건 뭐냐",
+      author: "-루피-",
     },
     {
-      quote: "To Travel is to Live",
-      author: "Hans Christian Andersen",
+      quote: "의미없는 것을 잔뜩 하는 것이 인생이란다",
+      author: "-마루코는 아홉살-",
     },
     {
       quote: "Only a life lived for others is a life worthwhile.",
